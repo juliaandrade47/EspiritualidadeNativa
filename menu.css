@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Roboto&display=swap');
+
+nav {
+background-color: #081C11;
+}
+
+.dropdown-menu{
+    background-color: #081C11;
+}
+
+.dropdown-item {
+color: #ffffff;
+}
+
+
+nav ul li   {
+display: inline-block;
+font-family: 'Judson', serif;
+font-size: 130%;
+	
+}
+.nav-disabled{
+	text-align: right;
+	margin-top: 2%;
+}
+
+.nav-item:hover {
+background: #92C7B0;
+transition: .5s;
+border:  solid #92C7B0;
+border-radius: 6px;
+}
+
+.navbarDropdown a:hover {
+background: #92C7B0;
+transition: .5s;
+color: #333;
+}   
+.dropdown-item{
+	font-size: 130%;
+	font-family: 'Judson', serif;
+}
+
+#check {
+display: none;
+}
+label.logo {
+	color: white;
+	font-size: 27px;
+	line-height: 90px;
+	padding: 0 3px;
+	font-family: 'Judson', serif;
+    top: 25%;
+    left:10%;
+}
+
+.dropdown-item:hover{
+	background-color: #92C7B0;
+}
+
+
+@media(max-width: 768px){
+	.iconidiomas{
+		margin-right: 100%;
+	}
+}
